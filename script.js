@@ -10,7 +10,3 @@ document.querySelectorAll('.nav a').forEach(link => link.addEventListener('click
   toggle.setAttribute('aria-expanded', 'false');
 }));
 document.getElementById('year').textContent = new Date().getFullYear();
-document.getElementById('contactForm').addEventListener('submit', event => {
-  event.preventDefault();
-  alert('This is a demo form. Please connect an email or form service before publishing to receive messa
-});
